@@ -3,7 +3,7 @@ name: alibaba-shopping
 slug: alibaba-shopping
 version: 2.0.0
 homepage: https://clawic.com/skills/alibaba-shopping
-description: Navigate Alibaba ecosystem (Taobao/Tmall/1688) with expert shopping strategies, authenticity checks, and browser-based product search, reviews, price comparison, and cart operations. Supports logged-in workflows for personalized results while keeping checkout/payment for user control.
+description: Help users choose the right Alibaba ecosystem platform first, then navigate Taobao, Tmall, or 1688 with browser-based product search, reviews, price comparison, and cart preparation. Use when the user wants to 在淘宝/天猫/1688 之间做选择、判断买品牌该去哪、拿货该去哪、零售和批发怎么选、比价并决定最合适平台, or needs an ecosystem-level shopping copilot with platform-fit, trust, and price-tradeoff guidance before payment.
 metadata:
   clawdbot:
     emoji: "🛒"
@@ -15,6 +15,11 @@ metadata:
 ## When to Use
 
 User wants to shop on Alibaba ecosystem platforms including Taobao (淘宝), Tmall (天猫), or 1688. Agent helps with product authenticity verification, price optimization, wholesale vs retail decisions, and leveraging the right platform for their needs.
+
+What makes this skill useful:
+- It works as the Alibaba ecosystem router, not just a product search helper.
+- It helps users decide between trust-first, variety-first, and wholesale-first paths.
+- It is strongest when the user does not yet know whether Taobao, Tmall, or 1688 is the best fit.
 
 ## Quick Reference
 
@@ -72,6 +77,11 @@ Understanding which Alibaba platform fits the user's need:
 | **1688** | Wholesale, factory sourcing, resellers | 10-100+ | Lowest | ⭐⭐⭐☆☆ |
 
 **Priority Order:** Tmall for trust → Taobao for variety → 1688 for bulk
+
+Decision shortcut:
+- choose **Tmall** when authenticity, official stores, and after-sales matter most
+- choose **Taobao** when variety and flexible pricing matter most
+- choose **1688** when bulk price and factory sourcing matter most
 
 ### 2. Store Types Decoded
 
