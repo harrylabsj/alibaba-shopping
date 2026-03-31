@@ -21,6 +21,15 @@ What makes this skill useful:
 - It helps users decide between trust-first, variety-first, and wholesale-first paths.
 - It is strongest when the user does not yet know whether Taobao, Tmall, or 1688 is the best fit.
 
+## Commerce Matrix
+
+This skill is the ecosystem router in the shopping matrix.
+
+Route into nearby skills when the path becomes clear:
+- `taobao-shopping` for Taobao-only listing and seller evaluation
+- `tianmao` for official flagship and authenticity-first buying
+- `taobao-competitor-analyzer` for Taobao vs JD/PDD/Vipshop comparison
+
 ## Quick Reference
 
 | Topic | File |
