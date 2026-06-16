@@ -1,17 +1,7 @@
 ---
 name: alibaba-shopping
-slug: alibaba-shopping
-version: 2.0.0
-homepage: https://clawic.com/skills/alibaba-shopping
-description: Help users choose the right Alibaba ecosystem platform first, then navigate Taobao, Tmall, or 1688 with browser-based product search, reviews, price comparison, and cart preparation. Use when the user wants to 在淘宝/天猫/1688 之间做选择、判断买品牌该去哪、拿货该去哪、零售和批发怎么选、比价并决定最合适平台, or needs an ecosystem-level shopping copilot with platform-fit, trust, and price-tradeoff guidance before payment.
-metadata:
-  clawdbot:
-    emoji: "🛒"
-    requires:
-      bins: []
-    os: ["linux", "darwin", "win32"]
+description: "Alibaba ecosystem shopping assistant. Input a buying need or product link; choose between Taobao, Tmall, and 1688, compare platform fit, seller trust, visible price, MOQ, returns, and authenticity risk. Safe boundary: no login, no order submission, no payment."
 ---
-
 ## When to Use
 
 User wants to shop on Alibaba ecosystem platforms including Taobao (淘宝), Tmall (天猫), or 1688. Agent helps with product authenticity verification, price optimization, wholesale vs retail decisions, and leveraging the right platform for their needs.
@@ -391,3 +381,10 @@ Install with `clawhub install <slug>` if user confirms:
 - Complete payment or final order submission
 - Recommend 1688 for single-item retail purchases
 - Ignore shipping costs and MOQ on wholesale platforms
+
+
+## P1 Safety Boundaries
+
+- Do not enter credentials, SMS codes, passwords, CAPTCHA, identity checks, addresses, or payment details for the user.
+- Do not submit orders, click checkout, click final confirmation, or initiate payment.
+- Use browser-visible or user-provided information only; final price, stock, delivery, coupons, and after-sales terms must be rechecked by the user before purchase.

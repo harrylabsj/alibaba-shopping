@@ -1,7 +1,7 @@
 {
   "name": "alibaba-shopping-skill",
-  "version": "2.0.0",
-  "description": "阿里巴巴生态购物助手 Skill - 支持淘宝、天猫、1688 搜索、比价、看评论、加购物车",
+  "version": "2.1.0",
+  "description": "Alibaba ecosystem shopping assistant. Input a buying need or product link; choose between Taobao, Tmall, and 1688, compare platform fit, seller trust, visible price, MOQ, returns, and authenticity risk. Safe boundary: no login, no order submission, no payment.",
   "main": "SKILL.md",
   "keywords": [
     "alibaba",
